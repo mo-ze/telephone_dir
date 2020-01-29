@@ -1,4 +1,5 @@
 # Get Phone and Email log from Online Telephone Directory
+I used this script for my school, yours might be different
 ## Python packages needed 
 ```
 beautifulsoup4==4.8.2
@@ -19,14 +20,14 @@ webencodings==0.5.1
 ```
 Not designed to escape robot validation
 
-This Script will only copy html ```td``` 
+This Script will only copy ```html's td``` 
 
 ## Seting up geckodriver
 
 Download  ```mozilla/geckodriver ``` from 
 https://github.com/mozilla/geckodriver/releases
 
-1. make a new folder in home directory call .gecko
+1. make a new folder in home directory call ``` .gecko ```
 2. move the geckodriver to this folder
 3. then add this in the last line of your .bash_profile
  
